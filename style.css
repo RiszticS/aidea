@@ -1,0 +1,82 @@
+#canvas {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+#title{
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+}
+
+#main{
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 525px;
+}
+
+#footer{
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  column-count: 2;
+}
+
+.mome{
+  font-size: 35px;
+  margin: 0;
+}
+
+.address{
+  font-size: 10px;
+}
+
+.date{
+  text-align: right ;
+}
+
+.year{
+  font-size: 14px;
+}
+
+.number{
+  font-size: 35px;
+  line-height: 22px;
+}
+
+#browser{
+  height: 350px;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.computer{
+  padding-top: 10%;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 525px;
+  font-size: 50px;
+}
+
+body{
+
+    background-color: white;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+@media only screen and (max-width: 799px) {
+  #canvas{display: block;}
+}
+@media only screen and (min-width: 800px) {
+  .computer{display: block;}
+  #main{width: 100%;}
+}
