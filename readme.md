@@ -2,7 +2,7 @@
 
 Ez az applikáció egy **grafikus látványterv digitális megvalósítása**, amelyet egy **Mesterséges Intelligencia Konferenciához** terveztek. Az alkalmazás **interaktív pontokat és vonalakat** használ, amelyek **elhomályosodnak**, majd a konferencia logójává alakulnak.  
 
-![Látványterv](latvanyterv.png)
+![Látványterv](látványterv.jpg)
 
 ---
 
